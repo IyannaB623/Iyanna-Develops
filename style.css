@@ -579,7 +579,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    height: 850px;
+    height: 800px;
     background: #FFF4F4;
     color: white;
     align-content: center;
@@ -590,7 +590,7 @@ h1{
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 650px;
+    height: 600px;
     width: 90%;
     background: linear-gradient(45deg,#FF95AE,  #FFC895, #C9EFB7, #4BE4C9);
     color: white;
@@ -1299,6 +1299,19 @@ footer{
 
     }
 
+    @media screen and (max-width: 765px){
+        #about{
+            height: 875px;
+            justify-content: center;
+        }
+
+        #about .bigabout{
+            height: 800px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
     @media screen and (max-width: 700px){
         #info{
             height: 500px;
@@ -1337,7 +1350,7 @@ footer{
         }
     }
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 619px){
 
         li{
             font-size: 1rem;
@@ -1480,9 +1493,231 @@ footer{
 
     }
 
+    @media screen and (max-width: 599px){
+
+        #about{
+            height: 850px;
+        }
+
+        #about .bigabout{
+            height: 800px;
+        }
+
+        #about p{
+            font-size: 1.4rem;
+        }
+
+        #contact span{
+            padding: 0 10%;
+        }
+
+    }
     /*---------------Iphone and others--------------------------*/
 
-    @media screen and (max-width: 420px){
+    @media screen and (max-width: 491px){
+
+        #intro .buttonFix, #about .buttonFix, #services .buttonFix, #about .buttonFix, #contact .buttonFix, .contactform .submitbutton{
+            width: 140px;
+            font-size: 0.9rem;
+        }
+
+        #intro{
+            height: 510px;
+            border-radius: 5px;
+        }
+
+        header{
+            height: 130px;
+        }
+
+        li{
+            font-size: 0.9rem;
+            padding: 3px;
+        }
+
+        ul, .topnav{
+            padding: 0px;
+            margin-right: 0px;
+        }
+
+        #intro h1{
+            font-size: 2rem;
+        }
+
+        body section .sectionTitle, body #recent .sectionTitle, body #about .sectionTitle, body #contact .sectionTitle{
+            font-size: 1.7rem;
+        }
+
+        #info section p{
+            font-size: 1.0rem;
+        }
+
+        #info{
+            height: 300px;
+        }
+
+        #info section{
+            height: 245px;
+        }
+
+        #services{
+            height: 1300px;
+        }
+
+        #services .services{
+            margin: 20px;
+        }
+
+        #services .servicesintro p{
+            font-size: 1.0rem;
+        }
+
+        .services section h3{
+            font-size: 1.5rem;
+        }
+
+        #services .services section p{
+            font-size: 1rem;
+            width: 95%;
+            padding: 0;
+            height: 100px;
+        }
+
+        #services .services section{
+            height: 220px;
+            width: 80%;
+        }
+
+        #recent .recentsection p{
+            font-size: 1rem;
+            height: 85px;
+            padding: 15px;
+            align-self: center;
+            justify-self: center;
+        }
+
+        #recent .recentsection section h3{
+            font-size: 1.5rem;
+            margin-top: 8px;
+        }
+
+        #recent{
+            height: 1400px;
+        }
+
+        #recent .recentsection{
+            height: 1300px;
+        }
+
+        #about p{
+            font-size: 1.2rem;
+        }
+
+        #about .aboutsoftware{
+            font-size: 1.3rem;
+        }
+
+        #about{
+            height: 685px;
+        }
+
+        #about .bigabout{
+            height: 585px;
+        }
+
+        #about img{
+            height: 150px;
+            width: 150px;
+        }
+
+        #contact span{
+            font-size: 1.3rem;
+        }
+
+        #contact form label{
+            font-size: 1rem;
+        }
+
+        #contact span{
+            padding: 0 10%;
+        }
+
+        .contactform form{
+            width: 90%;
+        }
+
+        #contact{
+            height: 850px
+        }
+
+    }
+
+    @media screen and (max-width: 465px){
+
+        #recent .recentsection p{
+            font-size: 0.9rem;
+            height: 85px;
+            padding: 15px;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+
+    @media screen and (max-width: 450px){
+        #about{
+            height: 880px;
+        }
+
+        #about .bigabout{
+            height: 820px;
+        }
+
+        #about p{
+            font-size: 1.5rem;
+        }
+
+        #about .aboutsoftware{
+            font-size: 1.8rem;
+        }
+    }
+    
+    @media screen and (max-width: 412px){
+        #about{
+            height: 830px;
+        }
+
+        #about .bigabout{
+            height: 775px;
+        }
+
+        #about p{
+            font-size: 1.4rem;
+        }
+
+        #about .aboutsoftware{
+            font-size: 1.6rem;
+        }
+    }
+
+    @media screen and (max-width: 386px){
+        #about{
+            height: 830px;
+        }
+
+        #about .bigabout{
+            height: 775px;
+        }
+
+        #about p{
+            font-size: 1.3rem;
+        }
+
+        #about .aboutsoftware{
+            font-size: 1.5rem;
+        }
+    }
+
+    @media screen and (max-width: 380px){
 
         #intro{
             height: 625px;
@@ -1677,11 +1912,11 @@ footer{
         }
 
         #about{
-            height: 610px;
+            height: 635px;
         }
 
         #about .bigabout{
-            height: 540px;
+            height: 580px;
         }
 
 
@@ -1713,23 +1948,16 @@ footer{
         }
 
         li{
-            font-size: 0.55rem;
-        }
-        #intro{
-            height:660px;
-        }
-
-        #info section{
-            height:;
+            font-size: 0.7rem;
         }
 
         #about{
-            height: 725px;
+            height: 600px;
 
         }
 
         #about .bigabout{
-            height: 660px;
+            height: 550px;
         }
 
         #services .services section{
