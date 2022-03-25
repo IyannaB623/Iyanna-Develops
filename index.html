@@ -173,21 +173,21 @@
 
         <section class="contactform">
            
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
 
-                <label>Name</label>
+                <label input type="text" name="name" />Name</label>
                 <input type="text" id="fname" name="Firstname & Lastname" placeholder="*First & Last Name">
 
                 <label>Email</label>
-                <input type="text" id="Email" name="Email" placeholder="*Email">
+                <input input type="email" name="email" / type="text" id="Email" name="Email" placeholder="*Email">
 
-                <label>Subject</label>
+                <label input type="text" name="subject">Subject</label>
                 <input type="text" id="subject" name="subject" placeholder="*Subject">
 
                 <label>Message</label>
-                <textarea id="message" name="subject" placeholder="Your Message..."></textarea>
+                <textarea name="message" id="message" placeholder="Your Message..."></textarea>
 
-                <input class="submitbutton" type="submit" value="Submit">
+                <input type="submit" class="submitbutton" value="Submit">
             </form>
          </section>
 
