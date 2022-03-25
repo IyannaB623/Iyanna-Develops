@@ -579,7 +579,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    height: 800px;
+    height: 850px;
     background: #FFF4F4;
     color: white;
     align-content: center;
@@ -590,7 +590,7 @@ h1{
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 600px;
+    height: 650px;
     width: 90%;
     background: linear-gradient(45deg,#FF95AE,  #FFC895, #C9EFB7, #4BE4C9);
     color: white;
