@@ -1392,6 +1392,115 @@ footer{
 
 
   }
+
+ /*---------------Iphone--------------------------*/
+
+    @media screen and (max-width: 420px){
+
+        header{
+            height: 115px;
+        }
+
+        li{
+            font-size: 0.6rem;
+        }
+
+        #intro{
+            height: 700px;
+        }
+
+        #intro h1{
+            font-size: 2rem;
+        }
+
+        body section .sectionTitle, body #recent .sectionTitle, body #about .sectionTitle, body #contact .sectionTitle{
+            font-size: 1.7rem;
+        }
+
+        #info section p{
+            font-size: 1.0rem;
+        }
+
+        #info{
+            height: 300px;
+        }
+
+        #info section{
+            height: 245px;
+        }
+
+        #services{
+            height: 1250px;
+        }
+
+        #services .servicesintro p{
+            font-size: 1.0rem;
+        }
+
+        .services section h3{
+            font-size: 1.5rem;
+        }
+
+        #services .services section p{
+            font-size: 1rem;
+        }
+
+        #services .services section{
+            height: 200px
+        }
+
+        #recent .recentsection p{
+            font-size: 0.9rem;
+            height: 80px;
+            padding: 15px;
+            align-self: center;
+            justify-self: center;
+        }
+
+        #recent .recentsection section h3{
+            font-size: 1.5rem;
+            margin-top: 8px;
+        }
+
+        #recent{
+            height: 1400px;
+        }
+
+        #recent .recentsection{
+            height: 1300px;
+        }
+
+        #about p{
+            font-size: 1rem;
+        }
+
+        #about .aboutsoftware{
+            font-size: 1.3rem;
+        }
+
+        #about{
+            height: 685px;
+        }
+
+        #about .bigabout{
+            height: 585px;
+        }
+
+        #about img{
+            height: 150px;
+            width: 150px;
+        }
+
+        #contact span{
+            font-size: 1.3rem;
+        }
+
+        #contact form label{
+            font-size: 1rem;
+        }
+
+    }
+    
   
   /*The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 1050px) {
