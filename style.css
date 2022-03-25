@@ -1708,7 +1708,13 @@ footer{
         }
     }
     
-    @media screen and (max-width: 412px){
+    @media screen and (max-width: 414px){
+
+        #intro{
+            height: 540px;
+            border-radius: 5px;
+        }
+
         #about{
             height: 830px;
         }
@@ -2003,11 +2009,68 @@ footer{
 
     }
 
-    @media screen and (max-width: 360px){
+    @media screen and (max-width: 305px){
+        #intro .buttonFix, #about .buttonFix, #services .buttonFix, #about .buttonFix, #contact .buttonFix{
+            width: 125px;
+            font-size: 0.9rem;
+        }
 
+        li{
+            font-size: 0.6rem;
+        }
+
+        #intro{
+            height: 675px;
+        }
     }
 
+     @media screen and (max-width: 270px){
+         
+        #services{
+            height: 1410px;
+        }
 
+        #services .services section{
+            height: 250px;
+            width: 100%;
+        }
+
+        #intro{
+            height: 700px;
+        }
+
+        li{
+            font-size: 0.55rem;
+        }
+
+        #info section{
+            height: 250px;
+        }
+
+        #recent .recentsection p{
+            font-size: 0.75rem;
+            height: 90px;
+            padding: 15px;
+            align-self: center;
+            justify-self: center;
+        }
+
+        #about{
+            height: 750px;
+
+        }
+
+        #about .bigabout{
+            height: 700px;
+        }
+
+    }
+     
+     @media screen and (max-width: 260px){
+        li{
+            font-size: 0.5rem;
+        }
+    }
 
 /* When the screen is less than 1050 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1050px) {
