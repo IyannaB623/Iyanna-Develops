@@ -1696,10 +1696,6 @@ footer{
 
     @media screen and (max-width: 450px){
         
-           body *{
-            color: green;
-        }
-        
         #about{
             height: 880px;
         }
@@ -1742,6 +1738,11 @@ footer{
     }
 
     @media screen and (max-width: 386px){
+        
+        body *{
+            color: yellow;
+        }
+        
         #about{
             height: 830px;
         }
