@@ -1512,10 +1512,6 @@ footer{
     /*---------------Iphone and others--------------------------*/
 
     @media screen and (max-width: 491px){
-        
-        body *{
-            color: blue;
-        }
 
         #intro .buttonFix, #about .buttonFix, #services .buttonFix, #about .buttonFix, #contact .buttonFix, .contactform .submitbutton{
             width: 140px;
@@ -1761,9 +1757,6 @@ footer{
         font-size: 1.1rem;
         }
 
-
-
-
         #intro{
             height: 625px;
             border-radius: 5px;
@@ -1897,10 +1890,6 @@ footer{
 
 
     @media screen and (max-width: 375px){ 
-
-        body *{
-            color: blue;
-        }
 
         #services .services{
             width: 100%;
