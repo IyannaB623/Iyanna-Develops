@@ -1724,21 +1724,38 @@ footer{
             height: 540px;
             border-radius: 5px;
         }
+        
+        #info{
+            height: 300px
+        }
+        
+        #info section{
+            height: 250px
+        }
 
         #about{
             height: 830px;
         }
 
         #about .bigabout{
-            height: 775px;
+            height: 740px;
         }
 
         #about p{
-            font-size: 1.4rem;
+            font-size: 1.2rem;
         }
 
         #about .aboutsoftware{
             font-size: 1.6rem;
+        }
+        
+         
+        #recent .recentsection p{
+            font-size: 1rem;
+            height: 130px;
+            padding: 15px;
+            align-self: center;
+            justify-self: center;
         }
     }
 
