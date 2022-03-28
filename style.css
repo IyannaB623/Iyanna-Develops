@@ -1682,9 +1682,6 @@ footer{
 
     @media screen and (max-width: 465px){
         
-        body{
-            color: blue;
-        }
 
         #recent .recentsection p{
             font-size: 0.9rem;
