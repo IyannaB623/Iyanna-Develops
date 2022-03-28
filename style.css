@@ -1715,7 +1715,11 @@ footer{
     }
     
     @media screen and (max-width: 414px){
-
+        
+          li{
+              font-size: 0.8rem;
+        }
+             
         #intro{
             height: 540px;
             border-radius: 5px;
