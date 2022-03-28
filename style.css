@@ -971,13 +971,13 @@ footer{
            margin-bottom: 10px;
         }
         #about{
-            height: 875px;
+            height: 880px;
             justify-content: center;
             align-content: center;
         }
 
         #about .bigabout{
-            height: 750px;
+            height: 825px;
             padding-left: 20px;
             padding-right: 20px;
             align-self: center;
