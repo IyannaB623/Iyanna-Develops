@@ -1837,7 +1837,7 @@ footer{
 
         #recent .recentsection p{
             font-size: 0.85rem;
-            height: 95px;
+            height: 110px;
             padding: 15px;
             align-self: center;
             justify-self: center;
@@ -1865,11 +1865,11 @@ footer{
         }
 
         #about{
-            height: 685px;
+            height: 725px;
         }
 
         #about .bigabout{
-            height: 585px;
+            height: 650px;
         }
 
         #about img{
