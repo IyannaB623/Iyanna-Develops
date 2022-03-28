@@ -9,7 +9,6 @@ body{
     background-color: white;
     width: 100%;
     font-family: Arial;
-    color: blue;
 }
 
 body p{
@@ -1682,6 +1681,10 @@ footer{
 
 
     @media screen and (max-width: 465px){
+        
+        body{
+            color: blue;
+        }
 
         #recent .recentsection p{
             font-size: 0.9rem;
