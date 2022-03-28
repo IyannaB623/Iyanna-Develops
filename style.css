@@ -1513,7 +1513,7 @@ footer{
 
     @media screen and (max-width: 491px){
         
-        body{
+        body *{
             color: blue;
         }
 
