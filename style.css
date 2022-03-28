@@ -783,6 +783,9 @@ footer{
     margin: 0 20px;
     margin-top: 40px;
 }
+/*-----------------------------Media Queries-----------------------------------*/
+
+
 @media screen and (max-width: 1630px){
 
     .recentsection p{
@@ -1528,7 +1531,7 @@ footer{
         }
 
         li{
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             padding: 3px;
         }
 
@@ -1550,11 +1553,11 @@ footer{
         }
 
         #info{
-            height: 325px;
+            height: 300px;
         }
 
         #info section{
-            height: 275px;
+            height: 245px;
         }
 
         #services{
@@ -1587,7 +1590,7 @@ footer{
 
         #recent .recentsection p{
             font-size: 1rem;
-            height: 120px;
+            height: 85px;
             padding: 15px;
             align-self: center;
             justify-self: center;
@@ -1615,11 +1618,11 @@ footer{
         }
 
         #about{
-            height: 710px;
+            height: 685px;
         }
 
         #about .bigabout{
-            height: 640px;
+            height: 585px;
         }
 
         #about img{
@@ -1646,8 +1649,8 @@ footer{
         #contact{
             height: 850px
         }
-        
-            #services .services{
+
+        #services .services{
             width: 100%;
             margin: 0;
             margin-top: 20px;
@@ -1683,7 +1686,6 @@ footer{
 
 
     @media screen and (max-width: 465px){
-        
 
         #recent .recentsection p{
             font-size: 0.9rem;
@@ -1695,7 +1697,6 @@ footer{
     }
 
     @media screen and (max-width: 450px){
-        
         #about{
             height: 880px;
         }
@@ -1714,11 +1715,6 @@ footer{
     }
     
     @media screen and (max-width: 414px){
-        
-           
-        body *{
-            color: yellow;
-        }
 
         #intro{
             height: 540px;
@@ -1772,10 +1768,9 @@ footer{
             height: 1450px;
         }
     }
+    }
 
     @media screen and (max-width: 386px){
-   
-        
         #about{
             height: 830px;
         }
@@ -1801,6 +1796,9 @@ footer{
         margin-top: 20px;
         font-size: 1.1rem;
         }
+
+
+
 
         #intro{
             height: 625px;
@@ -1871,7 +1869,7 @@ footer{
 
         #recent .recentsection p{
             font-size: 0.85rem;
-            height: 110px;
+            height: 95px;
             padding: 15px;
             align-self: center;
             justify-self: center;
@@ -1899,11 +1897,11 @@ footer{
         }
 
         #about{
-            height: 725px;
+            height: 685px;
         }
 
         #about .bigabout{
-            height: 650px;
+            height: 585px;
         }
 
         #about img{
