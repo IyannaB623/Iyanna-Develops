@@ -2006,6 +2006,21 @@ footer{
         #contact span{
             font-size: 1rem;
         }
+        
+        #services .services{
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        #intro .buttonFix, #about .buttonFix, #services .buttonFix, #about .buttonFix, #contact .buttonFix{
+            width: 110px;
+            font-size: 0.5rem;
+        }
+
+        #intro .buttonFix a, #about .buttonFix a, #services .buttonFix a, #about .buttonFix a, #contact .buttonFix a{
+            font-size: 0.8rem;
+        }
 
     }
 
@@ -2031,7 +2046,7 @@ footer{
         }
 
         #services .services section{
-            height: 250px;
+            height: 260px;
             width: 100%;
         }
 
@@ -2044,7 +2059,7 @@ footer{
         }
 
         #info section{
-            height: 250px;
+            height: 255px;
         }
 
         #recent .recentsection p{
@@ -2063,9 +2078,73 @@ footer{
         #about .bigabout{
             height: 700px;
         }
+    }
+
+    @media screen and (max-width: 312px){
+        #about{
+            height: 675px;
+
+        }
+
+        #about .bigabout{
+            height: 625px;
+        }
+
+
+        #about p{
+            font-size: 1rem;
+        }
+
+        #info section{
+            height: 220px;
+        }
+
+        #info{
+            height: 310px;
+        }
+
 
     }
+
+    @media screen and (max-width: 292px){
+        li{
+            font-size: 0.5rem;
+        }
+
+        #about{
+            height: 700px;
+
+        }
+
+        #about .bigabout{
+            height: 650px;
+        }
+
+
+        #info section{
+            height: 230px;
+        }
+
+        #info{
+            height: 310px;
+        }
+    }
      
+    @media screen and (max-width: 270px){
+        li{
+            font-size: 0.5rem;
+        }
+
+        #about{
+            height: 725px;
+
+        }
+
+        #about .bigabout{
+            height: 675px;
+        }
+    }
+
      @media screen and (max-width: 260px){
         li{
             font-size: 0.5rem;
@@ -2076,8 +2155,73 @@ footer{
         #intro{
             height: 700px;
         }
+
+        #intro .buttonFix a, #about .buttonFix a, #services .buttonFix a, #about .buttonFix a, #contact .buttonFix a{
+            font-size: 0.8rem;
+        }
+
+
+        #recent .recentsection p{
+            height: 100px;
+            font-size: 0.8rem;
+        }
+
+        #recent .recentsection{
+            height: 1375px;
+            width: 100%;
+        }
+
+        #recent{
+            height: 1475px;
+        }
+
+        #services .services{
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        #about{
+            height: 750px;
+
+        }
+
+        #about .bigabout{
+            height: 700px;
+        }
+
     }
 
+    @media screen and (max-width: 249px){
+        #services .services{
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+
+        #recent .recentsection p{
+            height: 90px;
+        }
+
+        #recent .recentsection{
+            height: 1350px;
+            width: 100%;
+        }
+
+        #recent{
+            height: 1450px;
+        }
+
+        #intro .buttonFix, #about .buttonFix, #services .buttonFix, #about .buttonFix, #contact .buttonFix{
+            width: 110px;
+            font-size: 0.5rem;
+        }
+
+        #intro .buttonFix a, #about .buttonFix a, #services .buttonFix a, #about .buttonFix a, #contact .buttonFix a{
+            font-size: 0.8rem;
+        }
+    }
+ 
 /* When the screen is less than 1050 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 1050px) {
     .topnav li:not(:first-child) {display: none;}
