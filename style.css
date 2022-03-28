@@ -1714,6 +1714,11 @@ footer{
     }
     
     @media screen and (max-width: 414px){
+        
+           
+        body *{
+            color: yellow;
+        }
 
         #intro{
             height: 540px;
@@ -1738,10 +1743,7 @@ footer{
     }
 
     @media screen and (max-width: 386px){
-        
-        body *{
-            color: yellow;
-        }
+   
         
         #about{
             height: 830px;
