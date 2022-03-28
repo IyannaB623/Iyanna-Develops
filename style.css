@@ -1732,9 +1732,14 @@ footer{
         #info section{
             height: 325px
         }
+        
+        
+        #info section p{
+            font-size: 1.2rem;
+        }
 
         #about{
-            height: 870px;
+            height: 820px;
         }
 
         #about .bigabout{
