@@ -787,16 +787,11 @@ footer{
 
 @media screen and (min-width: 1730px){
     #services{
-    display: flex;
-    flex-direction: column;
-    height: 1075px; 
+    height: 1275px; 
     outline: solid blue 2px;
     }
     .services{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 825px;
+    height: 925px;
     outline: solid green 2px;
     }
 }
