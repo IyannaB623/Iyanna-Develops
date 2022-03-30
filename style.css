@@ -787,12 +787,13 @@ footer{
 
 @media screen and (min-width: 1730px){
     #services{
-    height: 1275px; 
+    height: 1175px; 
     outline: solid blue 2px;
     }
     .services{
-    height: 925px;
+    height: 825px;
     outline: solid green 2px;
+    width: 85%;
     }
     
     #services button{
