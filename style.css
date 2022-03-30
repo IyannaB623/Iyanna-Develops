@@ -789,14 +789,14 @@ footer{
     #services{
     display: flex;
     flex-direction: column;
-    height: 1000px; 
+    height: 1075px; 
     outline: solid blue 2px;
     }
     .services{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 775px;
+    height: 825px;
     outline: solid green 2px;
     }
 }
