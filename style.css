@@ -229,7 +229,7 @@ h1{
 #services{
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: 950px;
     background-color: #FFF4F4;
 }
 
