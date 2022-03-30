@@ -790,12 +790,14 @@ footer{
     display: flex;
     flex-direction: column;
     height: 1000px; 
+    outline: solid blue 2px;
     }
     .services{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 720px;
+    height: 775px;
+    outline: solid green 2px;
     }
 }
 
