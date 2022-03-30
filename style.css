@@ -229,7 +229,7 @@ h1{
 #services{
     display: flex;
     flex-direction: column;
-    height: 950px;
+    height: 925px;
     background-color: #FFF4F4;
 }
 
@@ -784,6 +784,13 @@ footer{
     margin-top: 40px;
 }
 /*-----------------------------Media Queries-----------------------------------*/
+
+@media screen and (min-width: 1730px){
+    #services{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;   
+}
 
 
 @media screen and (max-width: 1630px){
