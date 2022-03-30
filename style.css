@@ -789,6 +789,8 @@ footer{
     #services{
     height: 1100px; 
     outline: solid blue 2px;
+    justify-content: center;
+    align-content: center;
     }
     .services{
     height: 825px;
