@@ -1,5 +1,5 @@
-function myFunction() {
-    var x = document.getElementByClass("myTopnav");
+function hamburgerMenu() {
+    var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += "responsive";
     } else {
