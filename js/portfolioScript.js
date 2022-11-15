@@ -15,7 +15,7 @@ const projects = [
         link: "underConstruction.html"
     },
      {
-        photo: "IMG/Screen Shot 2022-03-24 at 12.20.06 PM.png",
+        photo: "IMG/studioghibligif.gif",
         alt: "This is what its about",
         title: "Studio Ghibli API Project",
         description: 'A Studio Ghibli film gallery inspired site using the ghibliapi.herokuapp.com',
