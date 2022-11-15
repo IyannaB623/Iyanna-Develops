@@ -19,6 +19,6 @@ const projects = [
         alt: "This is what its about",
         title: "Studio Ghibli API Project",
         description: 'A Studio Ghibli film gallery inspired site using the ghibliapi.herokuapp.com',
-        link: "underConstruction.html"
+        link: "https://studioghibliapiproject.netlify.app/"
     },
 ];
