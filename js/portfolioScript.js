@@ -8,7 +8,7 @@ const projects = [
         link: "underConstruction.html"
     },
     {
-        photo: "IMG/Screen Shot 2022-03-24 at 12.20.06 PM.png",
+        photo: "IMG/herboxinggif.gif",
         alt: "",
         title: "Her Boxing Gym",
         description: 'A boxing gym exclusively open for "girl power" only, Her Boxing Gym. This layout captures the grit, strength, and boldness the Her Boxing Gym carries.',
