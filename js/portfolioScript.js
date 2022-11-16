@@ -1,11 +1,11 @@
 const projects = [
 
     {
-        photo: "IMG/Screen Shot 2022-03-08 at 4.47.19 PM.png",
+        photo: "IMG/elegantgreensgif.gif",
         alt: "This is what its about",
         title: "Elegant Greens",
         description: "Where elegance meets vegan cuisine, Elegant Greens. This chic Vegan Restaurant layout is inspired by the restaurant's interior, food, and stylish vibe.",
-        link: "underConstruction.html"
+        link: "https://elegantgreens.netlify.app/"
     },
     {
         photo: "IMG/herboxinggif.gif",
