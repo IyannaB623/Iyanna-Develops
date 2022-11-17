@@ -18,14 +18,14 @@ const projects = [
         photo: "IMG/studioghibligif.gif",
         alt: "A gif of studio ghibli api project website",
         title: "Studio Ghibli API Project",
-        description: 'A Studio Ghibli film gallery inspired site using the ghibliapi.herokuapp.com',
+        description: 'A Studio Ghibli film gallery inspired site using the Ghibli API. Allows users to browse films, and click for more details.',
         link: "https://studioghibliapiproject.netlify.app/"
     },
     {
         photo: "IMG/tempconvertergif.gif",
         alt: "A gif of temperature converter website",
         title: "Temperature Converter",
-        description: 'This project is self expanatory in its title. It was built using HTML, CSS, and JavaScript. The converter will convert any numeric value interchangeably between Celsius, Fahrenheit, and Kelvin.',
+        description: 'This project is self expanatory in its title. The converter will convert any numeric value interchangeably between Celsius, Fahrenheit, and Kelvin.',
         link: "https://temperatureconverterbyid.netlify.app/"
     },
   
