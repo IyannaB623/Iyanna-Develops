@@ -25,7 +25,7 @@ const projects = [
         photo: "IMG/tempconvertergif.gif",
         alt: "A gif of temperature converter website",
         title: "Temperature Converter",
-        description: 'This project is self expanatory in its title. The converter will convert any numeric value interchangeably between Celsius, Fahrenheit, and Kelvin.',
+        description: 'The temperature converter will convert any numeric value interchangeably between Celsius, Fahrenheit, and Kelvin.',
         link: "https://temperatureconverterbyid.netlify.app/"
     },
   
