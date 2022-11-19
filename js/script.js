@@ -7,10 +7,10 @@ function myFunction() {
     }
   }
 
-function httpGet(theUrl) {
-  let xmlHttpReq = new XMLHttpRequest();
-  xmlHttpReq.open("GET", theUrl, false); 
-  xmlHttpReq.send(null);
-  return xmlHttpReq.responseText;
-}
- console.log(httpGet('http://labs.bible.org/api/?passage=votd&formatting=plain'));
+ const options = {method: 'GET', headers: {accept: 'application/json'}};
+
+fetch('https://beta.ourmanna.com/api/v1/get?format=json&order=daily', options)
+  .then(response => response.json())
+  .then(response => console.log(response.verse.details))
+  .catch(err => console.error(err));
+  
