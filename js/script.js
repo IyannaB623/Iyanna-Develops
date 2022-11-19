@@ -7,10 +7,16 @@ function myFunction() {
     }
   }
 
- const options = {method: 'GET', headers: {accept: 'application/json'}};
+const options = {method: 'GET', headers: {accept: 'application/json'}};
+
+let votd = document.getElementById('votd')
+let ref = document.getElementById('reference')
 
 fetch('https://beta.ourmanna.com/api/v1/get?format=json&order=daily', options)
-  .then(response => response.json())
-  .then(response => console.log(response.verse.details))
+  .then(data => data.json())
+  .then(data => {
+  console.log(data.verse.details);
+  votd.innerText = data.verse.details.text;
+  ref.innerText = data.verse.details.reference
+}) 
   .catch(err => console.error(err));
-  
