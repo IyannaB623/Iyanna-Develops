@@ -7,9 +7,10 @@ function myFunction() {
     }
   }
 
-var req = new XMLHttpRequest();
-req.open('GET', 'http://labs.bible.org/api/?passage=votd&formatting=plain ', false);
-req.send(null);
-console.log(req.responseText);
-
-let votd = document.getElementById('votd').innerText = req.responseText 
+function httpGet(theUrl) {
+  let xmlHttpReq = new XMLHttpRequest();
+  xmlHttpReq.open("GET", theUrl, false); 
+  xmlHttpReq.send(null);
+  return xmlHttpReq.responseText;
+}
+ console.log(httpGet('http://labs.bible.org/api/?passage=votd&formatting=plain'));
