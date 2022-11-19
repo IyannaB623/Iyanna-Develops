@@ -739,9 +739,8 @@ form textarea{
 
 footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     color: white;
     margin-top: 35px;
     width: 100%;
@@ -750,13 +749,43 @@ footer{
     font-size: 1.2rem;
 }
 
+footer h2{
+ height: 40%;
+ font-size: 0.7em;
+ text-align: center;
+ margin: 0;
+ padding-top: 5px;
+}
+
+footer section{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+}
+
+#votd{
+    font-size: 60%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    width:100%;
+    color: white;
+    margin:0;
+}
+
 .footerimages{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     align-self: center;
-    height: 50px;
     width: 100px;
     align-content: center;
 }
+
 
 .footerimages a{
     display: flex;
