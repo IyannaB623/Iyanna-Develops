@@ -1541,6 +1541,10 @@ footer section{
         #contact span{
             font-size: 1.5rem;
         }
+        
+         footer{
+            height: 140px;
+        }
 
     }
 
