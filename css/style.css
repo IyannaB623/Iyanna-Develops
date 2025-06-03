@@ -198,7 +198,7 @@ h1{
     display: flex;
     flex-direction: column;
     height: 500px;
-    background: linear-gradient(45deg,#FF95AE, #FFC895, #C9EFB7, #4BE4C9);
+    background: linear-gradient(122deg,rgba(94, 24, 66, 1) 19%, rgba(173, 29, 137, 1) 68%, rgba(255, 161, 254, 1) 100%);
     justify-content: center;
 }
 
