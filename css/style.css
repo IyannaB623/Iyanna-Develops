@@ -103,79 +103,6 @@ li{
 
 
 /*--------------------------------------first section starts here--------------------------------*/
-html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, #000000 0%, #090A0F 100%);
-  overflow: hidden;
-}
-
-#intro .stars,
-#intro .stars:after {
-  content: " ";
-  position: absolute;
-  top: 2000px;
-  background: transparent;
-  animation: animStar 50s linear infinite;
-}
-
-/* Small pink stars */
-#intro .stars.small {
-  width: 1px;
-  height: 1px;
-  box-shadow:
-    300px 600px #FFA1FE, 800px 1200px #FFA1FE, 1500px 400px #FFA1FE, 400px 1700px #FFA1FE,
-    100px 900px #FFA1FE, 1200px 800px #FFA1FE, 1900px 1600px #FFA1FE, 600px 1400px #FFA1FE;
-}
-
-#intro .stars.small:after {
-  width: 1px;
-  height: 1px;
-  box-shadow:
-    300px 600px #FFA1FE, 800px 1200px #FFA1FE, 1500px 400px #FFA1FE, 400px 1700px #FFA1FE,
-    100px 900px #FFA1FE, 1200px 800px #FFA1FE, 1900px 1600px #FFA1FE, 600px 1400px #FFA1FE;
-}
-
-/* Medium pink stars */
-#intro .stars.medium {
-  width: 2px;
-  height: 2px;
-  animation-duration: 100s;
-  box-shadow:
-    900px 1500px #FFA1FE, 400px 700px #FFA1FE, 1400px 900px #FFA1FE, 700px 300px #FFA1FE;
-}
-
-#intro .stars.medium:after {
-  width: 2px;
-  height: 2px;
-  box-shadow:
-    900px 1500px #FFA1FE, 400px 700px #FFA1FE, 1400px 900px #FFA1FE, 700px 300px #FFA1FE;
-}
-
-/* Big pink stars */
-#intro .stars.big {
-  width: 3px;
-  height: 3px;
-  animation-duration: 150s;
-  box-shadow:
-    1000px 1800px #FFA1FE, 600px 1600px #FFA1FE, 1400px 1400px #FFA1FE;
-}
-
-#intro .stars.big:after {
-  width: 3px;
-  height: 3px;
-  box-shadow:
-    1000px 1800px #FFA1FE, 600px 1600px #FFA1FE, 1400px 1400px #FFA1FE;
-}
-
-/* Star animation */
-@keyframes animStar {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-2000px);
-  }
-}
 
 #intro{
     display: flex;
@@ -243,6 +170,76 @@ h1{
 
 #intro section{
     margin-top: 40px;
+}
+
+#intro {
+  position: relative;
+  z-index: 1;
+  padding: 5rem 2rem;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+#intro .stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  animation: animStar linear infinite, twinkle ease-in-out infinite;
+}
+
+#intro .stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+/* SMALL stars */
+#intro .small {
+  box-shadow:
+    300px 600px #FFA1FE, 800px 1200px #FFA1FE, 1500px 400px #FFA1FE, 400px 1700px #FFA1FE,
+    100px 900px #FFA1FE, 1200px 800px #FFA1FE, 1900px 1600px #FFA1FE, 600px 1400px #FFA1FE;
+  animation-duration: 50s, 1.5s;
+  z-index: 0;
+}
+
+/* MEDIUM stars */
+#intro .medium {
+  width: 2px;
+  height: 2px;
+  box-shadow:
+    900px 1500px #FFA1FE, 400px 700px #FFA1FE, 1400px 900px #FFA1FE, 700px 300px #FFA1FE;
+  animation-duration: 100s, 2.5s;
+  z-index: 0;
+}
+
+/* BIG stars */
+#intro .big {
+  width: 3px;
+  height: 3px;
+  box-shadow:
+    1000px 1800px #FFA1FE, 600px 1600px #FFA1FE, 1400px 1400px #FFA1FE;
+  animation-duration: 150s, 3s;
+  z-index: 0;
+}
+
+/* Falling star animation */
+@keyframes animStar {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-2000px); }
+}
+
+/* Twinkle animation */
+@keyframes twinkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.3; transform: scale(1.1); }
 }
 
 /*------------------------buttoneffect-------------------------------------*/
