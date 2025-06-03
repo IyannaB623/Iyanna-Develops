@@ -232,7 +232,7 @@ h1{
     display: flex;
     flex-direction: column;
     height: 925px;
-    background-color: #FFF4F4;
+    background-color: #000000;
 }
 
 #services>section{
@@ -381,7 +381,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     height: 850px;
-    background-color: #FFF4F4;
+    background-color: #000000;
 }
 
 #recent h1{
@@ -582,7 +582,7 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     height: 800px;
-    background: #FFF4F4;
+    background: #000000;
     color: white;
     align-content: center;
 }
@@ -663,7 +663,7 @@ h1{
     align-items: center;
     height: 800px;
     background-color:#FFF4F4;
-    color: #ff95ae;
+    color: #000000;
 }
 
 #contact h1{
@@ -747,7 +747,7 @@ footer{
     margin-top: 35px;
     width: 100%;
     height: 100px;
-    background-color: #FF95AE;
+    background-color: #000000;
     font-size: 1.2rem;
 }
 
