@@ -107,12 +107,12 @@ li{
     text-align: center;
     flex-wrap: wrap;
     height: 560px;
-    background-color: #FFF4F4;
+    background-color: #000000;
     padding-top: 20px;
 }
 
 h1{
-    color: #FF95AE;
+    color: #ffa1fe;
     font-size: 2.7rem;
     text-align: center;
     text-transform: uppercase;
