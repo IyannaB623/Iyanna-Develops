@@ -344,7 +344,7 @@ h1{
     width: 200px;
     align-self: center;
     border: none;
-    background: linear-gradient(45deg, #FF95AE, #FFC895, #C9EFB7, #4BE4C9);
+    background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
     border-color: solid white 2px;
     border-radius: 5px;
     color: white;
