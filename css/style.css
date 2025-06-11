@@ -635,6 +635,7 @@ h1{
 
 #recent h3{
     font-size: 2rem;
+    width: 100%;
     color: #FF95AE;
     text-transform: uppercase;
 }
