@@ -451,7 +451,7 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    height: 850px;
+    height: 900px;
     background-color: #000000;
 }
 
@@ -472,7 +472,7 @@ h1{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 775px;
+    height: 850px;
     width: 100%;
     background-color: #FFF4F4;
 }
@@ -483,7 +483,7 @@ h1{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 775px;
+    height: 850px;
     width: 32%;
     background-color: #FFF4F4;
     margin: 4px;
