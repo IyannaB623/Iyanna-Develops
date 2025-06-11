@@ -485,8 +485,8 @@ h1{
     text-align: center;
     height: 775px;
     width: 32%;
-     background-color: #FFF4F4;
-    margin: 2px;
+    background-color: #FFF4F4;
+    margin: 4px;
 }
 
 .recentsection p{
@@ -503,7 +503,7 @@ h1{
 }
 
 .imagerecent{
-    margin-top: 18px;
+    margin-top: 25px;
     margin-bottom: 0;
     width: 460px;
     height: 390px;
