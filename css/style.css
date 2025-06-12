@@ -674,14 +674,13 @@ h1{
 #recent h3{
     font-size: 2rem;
     width: 100%;
-    color: #FFF4F4;
+    color: white;
     text-transform: uppercase;
 }
 
 #recent span{
     color: white;
     font-size: 1rem;
-    color:#FFF4F4;
     display: none;
 }
 /*----------------------------------------about section starts here-------------------------------------*/
@@ -717,7 +716,7 @@ h1{
     width: 100px;
     margin-top: 100px;
     text-align: center;
-    color: FFF4F4;
+    color: FFA1FE
     margin-left: 125px;
     margin-top: 30px;
     margin-bottom: 20px;
