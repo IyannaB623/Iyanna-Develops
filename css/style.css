@@ -458,6 +458,9 @@ h1{
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
     padding: 2px;
 }
+#services .carousel-send b{
+    align-self: center;
+}
 
 #services a{
     color:white;
