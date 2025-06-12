@@ -300,195 +300,179 @@ h1{
 
 
 /*------------------------------servics section starts here-------------------------------------------*/
-#services{
+#services {
     display: flex;
     flex-direction: column;
     height: 925px;
     background-color: #000000;
 }
 
-#services>section{
+#services > section {
     display: flex;
 }
 
-.servicesintro{
+/* Intro Section */
+.servicesintro {
     display: flex;
-    align-content: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 110px;
-    margin: 0;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin: 50px 0 20px;
 }
 
-.servicesintro h1{
+.servicesintro h1 {
     font-size: 2.4rem;
-    align-self: center;
     margin-bottom: 20px;
-    color:#FF95AE;
+    color: #FF95AE;
 }
 
-.servicesintro p, #services span{
+.servicesintro p,
+#services span {
     text-align: center;
-    align-self: center;
     margin: 0;
     padding: 0 325px;
     font-size: 1.7rem;
-    color:#FF95AE;
+    color: #FF95AE;
 }
 
-#services span{
+#services span {
     font-size: 1rem;
     margin-top: 20px;
 }
 
-.services{
+/* Services Grid */
+.services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     height: 650px;
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 60px;
+    margin: 60px 5% 0;
 }
 
-.services img{
+.services img {
     height: 40px;
     width: 40px;
-    margin: 10px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin: 25px 10px 10px;
     border-radius: 5px;
 }
-.services h3, .services img{
+
+.services h3,
+.services img {
     margin-bottom: 0;
 }
 
-.services h3{
+.services h3 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.6rem;
     margin-top: 10px;
 }
 
-.services>p, .services section{
+.services > p,
+.services section {
     display: flex;
     flex-direction: column;
-    justify-content: first baseline;
     align-items: center;
+    justify-content: first baseline;
     height: 255px;
     width: 575px;
     margin: 15px;
-    padding-top: 0px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
     font-size: 1.6rem;
     color: white;
     text-align: center;
     border-radius: 5px;
     background-color: #FF95AE;
-    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
-}
-.services-carousel {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: auto;
-  overflow: hidden;
-  background-color: #111; /* Optional dark background */
-  color: white;
-  padding: 20px 0;
-}
-.carousel-track {
-  display: flex;
-  transition: transform 0.3s ease-in-out;
-  width: 100%;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
-.carousel-track section {
-  flex: 0 0 100%;
-  max-width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #FF95AE;
-  border-radius: 5px;
-  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
-
+/* Service Card Color Variants */
+.services .proposal {
+    background: #FFC895;
 }
 
-
-.services .proposal{
-    background:#FFC895;
-    color: white;
-
-}
-
-.services .development{
+.services .development {
     background: #C9EFB7;
-    color: white;
 }
 
-.services .launch{
+.services .launch {
     background: #4BE4C9;
-    color: white;
 }
 
-#services button{
+/* Buttons (Shared Styles) */
+#services button,
+.services-carousel button {
     margin-top: 40px;
     height: 50px;
     width: 200px;
     align-self: center;
-    border: none;
-    background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
-    border-color: solid white 2px;
+    border: 2px solid white;
+    background: linear-gradient(24deg, rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
     border-radius: 5px;
     color: white;
-    margin: 10px;
-    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
     padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
-/*
-.services-carousel button {
-  margin-top: 40px;
-  height: 50px;
-  width: 200px;
-  align-self: center;
-  border: none;
-  background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
-  border-radius: 5px;
-  color: white;
-  box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
-  padding: 2px;
-  text-transform: uppercase;
-  font-weight: bold;
-}*/
+
+/* Carousel Section */
+.services-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+}
+
+.carousel-track section {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FF95AE;
+    border-radius: 5px;
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Nav Buttons */
 .carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #444;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  z-index: 10;
-  font-size: 18px;
-  opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #444;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+    opacity: 0.8;
 }
 
 .carousel-btn.left {
-  left: 10px;
+    left: 10px;
 }
 
 .carousel-btn.right {
-  right: 10px;
+    right: 10px;
 }
 
-#services a{
-    color:white;
+/* Service Links */
+#services a {
+    color: white;
     text-transform: uppercase;
     font-size: 1rem;
 }
