@@ -490,7 +490,7 @@ h1{
     flex-wrap: wrap;
     align-items: center;
     height: 1000px;
-    background-color: #000000;
+    background-color: black;
 }
 
 #recent h1{
@@ -520,10 +520,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; 
     height: 840px;
     width: 32%;
-    background-color: #FFF4F4;
+    background-color:#FFF4F4;
     margin: 4px;
 }
 
@@ -533,7 +533,7 @@ h1{
     background-color: rgba(255,255,255,0.5);
     border: 5%;
     padding: 5%;
-    color: #FF95AE;
+    color:black;
     margin-top: 0;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
     width: 460px;
