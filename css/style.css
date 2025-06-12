@@ -302,17 +302,17 @@ h1{
   display: inline-block;
   width: 60px;
   height: 60px;
+  opacity: 0; /* start hidden */
+  transform: scale(0.4) rotate(0deg);
+  transition: all 0.5s ease-out;
+}
+
+.github-icon-static.animate {
   animation: spinGrowShrink 1s ease-out 1;
   animation-fill-mode: forwards;
-  margin: 20px auto; /* Center horizontally if inside a container */
+  opacity: 1;
 }
 
-.github-icon-static img {
-  width: 100%;
-  height: 100%;
-}
-
-/* Fast spin + pop animation */
 @keyframes spinGrowShrink {
   0% {
     transform: scale(0.4) rotate(0deg);
