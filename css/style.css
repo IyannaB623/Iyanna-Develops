@@ -113,7 +113,47 @@ li{
     background-color: #000000;
     padding-top: 20px;
 }*/
+.floating-disclaimer {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  max-width: 320px;
+  background-color: rgba(50, 50, 50, 0.8);
+  color: white;
+  padding: 1rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
 
+.floating-disclaimer p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.floating-disclaimer a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.floating-disclaimer a:hover {
+  color: #cccccc;
+}
+
+.close-disclaimer {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  line-height: 1;
+}
 
 h1{
     color: #ffffff;
@@ -299,27 +339,7 @@ h1{
     font-size: 1.9rem;
     margin-top: 0;
 }
-.site-disclaimer, .service-disclaimer {
-  display: flex;
-  align-self: left;
-  color: white;
-  padding: 1rem 1.5rem;
-  margin: 2rem auto;
-  border-left: 4px solid white;
-  border-radius: 5px;
-  max-width: 800px;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-}
-.site-disclaimer a, .service-disclaimer a{
-  color: #white;
-  font-weight: bold;
-}
 
-.site-disclaimer a:hoveer, .service-disclaimer a:hover {
-  color: #FF95AE;
-}
 
  .github-icon-static img {
   width: 75px;
