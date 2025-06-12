@@ -300,6 +300,8 @@ h1{
     margin-top: 0;
 }
 .site-disclaimer, .service-disclaimer {
+  display: flex;
+  align-self: left;
   color: white;
   padding: 1rem 1.5rem;
   margin: 2rem auto;
@@ -310,7 +312,7 @@ h1{
   line-height: 1.6;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
-.site-disclaimer a, .service-disclaimer a {
+.site-disclaimer a, .service-disclaimer a{
   color: #white;
   font-weight: bold;
 }
