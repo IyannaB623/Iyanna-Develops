@@ -140,7 +140,7 @@ h1{
     flex-wrap: wrap;
 }
 
-#intro button, .submitbutton, #about button, .button,{
+#intro button, .submitbutton, #about button, .button, .connectbutton{
     margin-top: 20px;
     height: 50px;
     width: 200px;
@@ -514,7 +514,7 @@ h1{
   text-align: center;
   margin-top: 20px;
 }
-
+/*
 .carousel-send{
     display: flex;
     z-index: 10;
@@ -530,7 +530,7 @@ h1{
     margin: 10px;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
     padding: 2px;
-}
+}*/
 
 
 /*---------------------------------------recent section starts here--------------------------------*/
