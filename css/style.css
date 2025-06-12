@@ -403,7 +403,7 @@ h1{
 }
 
 
-/*.services .proposal{
+.services .proposal{
     background:#FFC895;
     color: white;
 
@@ -417,7 +417,7 @@ h1{
 .services .launch{
     background: #4BE4C9;
     color: white;
-}*/
+}
 
 #services button{
     margin-top: 40px;
@@ -439,7 +439,7 @@ h1{
     text-transform: uppercase;
     font-size: 1rem;
 }
-/*
+*
 .codeicon{
     background-color: #C9EFB7;
 }
@@ -454,7 +454,7 @@ h1{
 
 .lightbulbicon{
     background-color: #FF95AE;
-}/*/
+}
 
 .carousel-track-container {
   overflow: hidden;
