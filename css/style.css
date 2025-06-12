@@ -383,7 +383,7 @@ h1{
     margin-top: 60px;
 }
 
-.services img{
+#services .carousel-track-container img{
     height: 40px;
     width: 40px;
     margin: 10px;
