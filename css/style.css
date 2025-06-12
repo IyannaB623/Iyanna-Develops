@@ -140,7 +140,7 @@ h1{
     flex-wrap: wrap;
 }
 
-#intro button, .submitbutton, #about button, .button, .carousel-send{
+#intro button, .submitbutton, #about button, .button,{
     margin-top: 20px;
     height: 50px;
     width: 200px;
@@ -518,7 +518,18 @@ h1{
 .carousel-send{
     display: flex;
     z-index: 10;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
     align-self: center;
+    border: none;
+    background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
+    border-color: solid white 2px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    padding: 2px;
 }
 
 
