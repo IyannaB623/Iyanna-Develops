@@ -306,6 +306,22 @@ h1{
     height: 925px;
     background-color: #000000;
 }
+. {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 60px auto;
+  overflow: hidden;
+  background-color: #111;
+  color: white;
+  padding: 20px 0;
+}
+
+ {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+  width: 100%;
+}
 
 #services>section{
     display: flex;
