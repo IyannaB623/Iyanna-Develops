@@ -140,7 +140,7 @@ h1{
     flex-wrap: wrap;
 }
 
-#intro button, .submitbutton, #about button, .button, .connectbutton{
+#intro button, .submitbutton, #about button, .button{
     margin-top: 20px;
     height: 50px;
     width: 200px;
