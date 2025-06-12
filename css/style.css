@@ -479,6 +479,14 @@ h1{
 .carousel-btn.right {
   right: 10px;
 }
+.carousel-btn {
+  transition: opacity 0.3s ease;
+}
+
+.carousel-btn[style*="display: none"] {
+  opacity: 0;
+  pointer-events: none;
+}
 
 
 #services a{
