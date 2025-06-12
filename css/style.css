@@ -666,7 +666,7 @@ h1{
 #recent button a, #about .connectbutton a, .submitbutton{
     text-decoration: none;
     text-transform: uppercase;
-    color:  white;
+    color:  black;
     font-size: 1rem;
     font-weight: bold;
 }
@@ -674,14 +674,14 @@ h1{
 #recent h3{
     font-size: 2rem;
     width: 100%;
-    color: #FF95AE;
+    color: #FFF4F4;
     text-transform: uppercase;
 }
 
 #recent span{
     color: white;
     font-size: 1rem;
-    color:#FF95AE;
+    color:#FFF4F4;
     display: none;
 }
 /*----------------------------------------about section starts here-------------------------------------*/
@@ -717,7 +717,7 @@ h1{
     width: 100px;
     margin-top: 100px;
     text-align: center;
-    color: #FF95AE;
+    color: #FFF4F4;
     margin-left: 125px;
     margin-top: 30px;
     margin-bottom: 20px;
