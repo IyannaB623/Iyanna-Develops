@@ -393,7 +393,7 @@ h1{
 }
 .services-carousel {
   position: relative;
-  width: 98%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
   background-color: #111; /* Optional dark background */
