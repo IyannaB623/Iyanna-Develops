@@ -450,7 +450,7 @@ h1{
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
     padding: 2px;
 }
-
+/*
 .services-carousel button {
   margin-top: 40px;
   height: 50px;
@@ -464,7 +464,7 @@ h1{
   padding: 2px;
   text-transform: uppercase;
   font-weight: bold;
-}
+}*/
 .carousel-btn {
   position: absolute;
   top: 50%;
@@ -486,8 +486,6 @@ h1{
 .carousel-btn.right {
   right: 10px;
 }
-
-
 
 #services a{
     color:white;
