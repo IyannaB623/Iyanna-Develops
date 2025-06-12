@@ -391,6 +391,17 @@ h1{
     background-color: #FF95AE;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
+.services-carousel {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  background-color: #111; /* Optional dark background */
+  color: white;
+  padding: 20px 0;
+}
+
 
 .services .proposal{
     background:#FFC895;
@@ -443,6 +454,48 @@ h1{
 
 .lightbulbicon{
     background-color: #FF95AE;
+}
+
+.carousel-track-container {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-track section {
+  min-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.carousel-btn.left {
+  left: 10px;
+}
+
+.carousel-btn.right {
+  right: 10px;
+}
+
+.carousel-footer {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /*---------------------------------------recent section starts here--------------------------------*/
