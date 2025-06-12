@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const track = document.querySelector('.carousel-track');
+  const track = document.querySelector('.');
   const slides = Array.from(track.children);
   const nextBtn = document.querySelector('.carousel-btn.right');
   const prevBtn = document.querySelector('.carousel-btn.left');
