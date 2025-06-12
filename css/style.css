@@ -113,6 +113,16 @@ li{
     background-color: #000000;
     padding-top: 20px;
 }*/
+.open {
+    width: 473px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-flex;
+    animation-name: open;
+}
+@keyframes open {
+    from { width: 0 }
+}
 
 h1{
     color: #ffffff;
