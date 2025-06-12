@@ -516,7 +516,9 @@ h1{
 }
 
 .carousel-send{
-    z-index: 10; 
+    display: flex;
+    z-index: 10;
+    align-self: center;
 }
 
 
