@@ -369,7 +369,7 @@ h1{
   font-size: 1.6rem;
   margin-top: 10px;
 }
-
+/*
 .services > p,
 .services section {
   display: flex;
@@ -386,7 +386,7 @@ h1{
   border-radius: 5px;
   background-color: #FF95AE;
   box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
-}
+}/
 
 /* Service Step Colors */
 .services .proposal {
