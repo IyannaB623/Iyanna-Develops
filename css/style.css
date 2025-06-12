@@ -692,7 +692,7 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     height: 800px;
-    background: #000000;
+    background: linear-gradient(122deg,rgba(94, 24, 66, 1) 19%, rgba(173, 29, 137, 1) 68%, rgba(255, 161, 254, 1) 100%);
     color: white;
     align-content: center;
 }
@@ -702,12 +702,13 @@ h1{
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
-    height: 600px;
-    width: 90%;
-    background: linear-gradient(45deg,#FF95AE,  #FFC895, #C9EFB7, #4BE4C9);
+    height: 780px;
+    width: 98%;
+    background-color: #000000;
     color: white;
     align-content: center;
     border-radius: 5px;
+    margin-top: 15;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 
