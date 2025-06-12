@@ -30,3 +30,15 @@ const projects = [
     },
   
 ];
+
+document.addEventListener('DOMContentLoaded', () => {
+  const revampingProjects = document.querySelectorAll('.bubble[data-status="revamping"]');
+
+  revampingProjects.forEach(project => {
+    project.classList.add('revamping');
+
+    // Remove buttons or disable links if present
+    const button = project.querySelector('a');
+    if (button) button.remove(); // Or button.style.pointerEvents = 'none';
+  });
+});
