@@ -197,7 +197,7 @@ h1{
 #intro .stars:after {
   content: " ";
   position: absolute;
-  top: 4000px;  /* match translateY value */
+  top: 6000px;  /* match translateY value */
   width: 100%;
   height: 100%;
   background: transparent;
@@ -233,7 +233,7 @@ h1{
 /* Animate stars upward — increase travel distance */
 @keyframes animStar {
   from { transform: translateY(0); }
-  to { transform: translateY(-4000px); } /* more vertical distance */
+  to { transform: translateY(-6000px); } /* more vertical distance */
 }
 
 /* Twinkle effect */
