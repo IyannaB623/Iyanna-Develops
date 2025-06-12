@@ -113,6 +113,19 @@ li{
     background-color: #000000;
     padding-top: 20px;
 }*/
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.cssanimation span { display: inline-block }
 .open {
     width: 473px;
     margin: 0 auto;
