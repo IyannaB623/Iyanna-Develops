@@ -401,6 +401,17 @@ h1{
   color: white;
   padding: 20px 0;
 }
+.carousel-track {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
+.carousel-track section {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
 
 
 .services .proposal{
