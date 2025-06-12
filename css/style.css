@@ -486,7 +486,7 @@ h1{
     color: white;
 }
 
-#services .carousel-send{
+#services .carosend{
     margin-top: 40px;
     height: 50px;
     width: 200px;
@@ -500,7 +500,7 @@ h1{
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
     padding: 2px;
 }
-#services .carousel-send b{
+#services .carosend{
     align-self: center;
 }
 
@@ -556,7 +556,7 @@ h1{
   margin-top: 20px;
 }
 
-.carousel-send{
+.carosend{
     display: flex;
     z-index: 10;
 }
