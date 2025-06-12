@@ -403,18 +403,15 @@ h1{
 
 
 .services .proposal{
-    background:#FFC895;
     color: white;
 
 }
 
 .services .development{
-    background: #C9EFB7;
     color: white;
 }
 
 .services .launch{
-    background: #4BE4C9;
     color: white;
 }
 
@@ -439,20 +436,8 @@ h1{
     font-size: 1rem;
 }
 
-.codeicon{
-    background-color: #C9EFB7;
-}
-
-.launchicon{
-    background-color: #4BE4C9;
-}
-
-.proposalicon{
-    background-color: #FFC895;
-}
-
-.lightbulbicon{
-    background-color: #FF95AE;
+.codeicon, .launchicon,.proposalicon .lightbulbicon{
+    background-color: none;
 }
 
 .carousel-track-container {
