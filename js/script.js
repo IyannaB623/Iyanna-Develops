@@ -43,25 +43,21 @@ document.addEventListener('DOMContentLoaded', () => {
   updateSlide(); // initial update
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const target = document.querySelector(".github-icon-static");
+document.addEventListener('DOMContentLoaded', () => {
+  const githubIcon = document.querySelector('.github-icon-static');
 
-  const observer = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("animate");
-          observer.unobserve(entry.target); // only animate once
-        }
-      });
-    },
-    {
-      threshold: 0.5, // 50% visible triggers it
-    }
-  );
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        githubIcon.classList.add('animate');
+        observer.unobserve(githubIcon); // run only once
+      }
+    });
+  }, {
+    threshold: 0.5 // 50% in view
+  });
 
-  if (target) {
-    observer.observe(target);
+  if (githubIcon) {
+    observer.observe(githubIcon);
   }
 });
-
