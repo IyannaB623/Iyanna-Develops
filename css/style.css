@@ -523,7 +523,7 @@ h1{
     text-align: center; 
     height: 840px;
     width: 32%;
-    background-color:FFF4F4;
+    background-color:FFFFFF;
     margin: 4px;
 }
 
@@ -704,7 +704,7 @@ h1{
     flex-wrap: wrap;
     height: 780px;
     width: 98%;
-    background-color: 000000;
+    background-color: #000000;
     color: white;
     align-content: center;
     border-radius: 5px;
