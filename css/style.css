@@ -300,8 +300,8 @@ h1{
 }
 
  .github-icon-static img {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   opacity: 0;
   transform: scale(0.4) rotate(0deg);
   transition: all 0.3s ease-out;
