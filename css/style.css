@@ -300,187 +300,70 @@ h1{
 
 
 /*------------------------------servics section starts here-------------------------------------------*/
-#services{
-    display: flex;
-    flex-direction: column;
-    height: 925px;
-    background-color: #000000;
-}
-. {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 60px auto;
-  overflow: hidden;
-  background-color: #111;
-  color: white;
-  padding: 20px 0;
-}
-
- {
+#services {
   display: flex;
-  transition: transform 0.4s ease-in-out;
-  width: 100%;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 50px 0;
+  color: white;
 }
 
-#services>section{
-    display: flex;
+.servicesintro {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.servicesintro{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 110px;
-    margin: 0;
-    margin-top: 50px;
-    margin-bottom: 20px;
+.servicesintro h1 {
+  color: #FF95AE;
+  font-size: 2.4rem;
+  margin-bottom: 15px;
 }
 
-.servicesintro h1{
-    font-size: 2.4rem;
-    align-self: center;
-    margin-bottom: 20px;
-    color:#FF95AE;
-}
-
-.servicesintro p, #services span{
-    text-align: center;
-    align-self: center;
-    margin: 0;
-    padding: 0 325px;
-    font-size: 1.7rem;
-    color:#FF95AE;
-}
-
-#services span{
-    font-size: 1rem;
-    margin-top: 20px;
-}
-
-.services{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 650px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 60px;
-}
-
-.services img{
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-.services h3, .services img{
-    margin-bottom: 0;
-}
-
-.services h3{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.6rem;
-    margin-top: 10px;
-}
-
-.services>p, .services section{
-    display: flex;
-    flex-direction: column;
-    justify-content: first baseline;
-    align-items: center;
-    height: 255px;
-    width: 575px;
-    margin: 15px;
-    padding-top: 0px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 1.6rem;
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #FF95AE;
-    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
-}
-
-.services .development{
-    background: #C9EFB7;
-    color: white;
-}
-
-.services .launch{
-    background: #4BE4C9;
-    color: white;
-}
-
-#services button{
-    margin-top: 40px;
-    height: 50px;
-    width: 200px;
-    align-self: center;
-    border: none;
-    background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
-    border-color: solid white 2px;
-    border-radius: 5px;
-    color: white;
-    margin: 10px;
-    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
-    padding: 2px;
-}
-
-#services a{
-    color:white;
-    text-transform: uppercase;
-    font-size: 1rem;
-}
-
-.codeicon{
-    background-color: #C9EFB7;
-}
-
-.launchicon{
-    background-color: #4BE4C9;
-}
-
-.proposalicon{
-    background-color: #FFC895;
-}
-
-.lightbulbicon{
-    background-color: #FF95AE;
+.servicesintro p {
+  font-size: 1.5rem;
+  padding: 0 20px;
+  color: #FF95AE;
 }
 
 .carouselTrackContainer {
   position: relative;
-  width: 100%;
   max-width: 900px;
-  margin: 60px auto;
+  margin: 0 auto;
   overflow: hidden;
-  background-color: #111;
-  color: white;
-  padding: 20px 0
 }
-
 
 .carouselTrack {
   display: flex;
   transition: transform 0.4s ease-in-out;
-  width: 100%;
 }
+
 .carouselTrack section {
   flex: 0 0 100%;
-  max-width: 100%;
-  padding: 20px;
   box-sizing: border-box;
+  padding: 40px 20px;
   text-align: center;
+  border-radius: 8px;
+  margin: 0 10px;
   background-color: #FF95AE;
-  border-radius: 5px;
   box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.carouselTrack h3 {
+  margin-top: 15px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.carouselTrack p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.services img {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 .carousel-btn {
@@ -490,11 +373,12 @@ h1{
   background: #444;
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 12px;
   cursor: pointer;
-  z-index: 10;
-  font-size: 18px;
+  font-size: 20px;
+  z-index: 2;
   opacity: 0.8;
+  border-radius: 50%;
 }
 
 .carousel-btn.left {
@@ -505,9 +389,17 @@ h1{
   right: 10px;
 }
 
-.carousel-footer {
- text-align: center;
-  margin-top: 20px;
+/* Slide backgrounds */
+.services.proposal {
+  background: #FFC895;
+}
+
+.services.development {
+  background: #C9EFB7;
+}
+
+.services.launch {
+  background: #4BE4C9;
 }
 
 /*---------------------------------------recent section starts here--------------------------------*/
