@@ -301,8 +301,8 @@ h1{
 #info section .github-icon-static {
   display: inline-block;
   align-self: center;
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   opacity: 0; /* start hidden */
   transform: scale(0.4) rotate(0deg);
   transition: all 0.5s ease-out;
