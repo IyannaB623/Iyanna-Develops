@@ -332,7 +332,7 @@ h1{
 #services{
     display: flex;
     flex-direction: column;
-    height: 925px;
+    height: 600px;
     background-color: #000000;
 }
 
@@ -376,7 +376,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 925px;
+    height: 600px;
     width: 98%;
     margin-left: 5%;
     margin-right: 5%;
