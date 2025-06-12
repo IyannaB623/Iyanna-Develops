@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const track = document.querySelector('.carouselTrack');
+  const track = document.querySelector('.carousel-track');
   const slides = Array.from(track.children);
   const nextBtn = document.querySelector('.carousel-btn.right');
   const prevBtn = document.querySelector('.carousel-btn.left');
@@ -9,6 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateSlide() {
     const slideWidth = slides[0].getBoundingClientRect().width;
     track.style.transform = `translateX(-${slideWidth * currentSlide}px)`;
+
+    // Hide left arrow on first slide
+    if (currentSlide === 0) {
+      prevBtn.style.display = 'none';
+    } else {
+      prevBtn.style.display = 'block';
+    }
+
+    // Hide right arrow on last slide
+    if (currentSlide === slides.length - 1) {
+      nextBtn.style.display = 'none';
+    } else {
+      nextBtn.style.display = 'block';
+    }
   }
 
   nextBtn.addEventListener('click', () => {
@@ -26,5 +40,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   window.addEventListener('resize', updateSlide);
-  updateSlide();
+  updateSlide(); // initial update
 });
