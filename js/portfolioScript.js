@@ -1,19 +1,5 @@
 const projects = [
 
-    {
-        photo: "IMG/elegantgreensgif.gif",
-        alt: "This is what its about",
-        title: "Elegant Greens",
-        description: "Where elegance meets vegan cuisine, Elegant Greens. This chic Vegan Restaurant layout is inspired by the restaurant's interior, food, and stylish vibe.",
-        link: "https://elegantgreens.netlify.app/"
-    },
-    {
-        photo: "IMG/herboxinggif.gif",
-        alt: "",
-        title: "Her Boxing Gym",
-        description: 'A boxing gym exclusively open for "girl power" only, Her Boxing Gym. This layout captures the grit, strength, and boldness the Her Boxing Gym carries.',
-        link: "https://herboxinggym.netlify.app/"
-    },
      {
         photo: "IMG/studioghibligif.gif",
         alt: "A gif of studio ghibli api project website",
@@ -42,3 +28,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (button) button.remove(); // Or button.style.pointerEvents = 'none';
   });
 });
+
+/*
+   {
+        photo: "IMG/elegantgreensgif.gif",
+        alt: "This is what its about",
+        title: "Elegant Greens",
+        description: "Where elegance meets vegan cuisine, Elegant Greens. This chic Vegan Restaurant layout is inspired by the restaurant's interior, food, and stylish vibe.",
+        link: "https://elegantgreens.netlify.app/"
+    },
+     <img src="IMG/ayeshasalongif.gif" alt="a gif of ayesha salon site being browsed">
+            <h3>Ayesha Hair Salon</h3>
+            <p>A "Bold & Beautiful" beauty salon layout for Ayesha Salon. Incoraporated bold fonts, colors, images, and more to capture the essence of this incredible black owned salon. </p>
+            <a href="https://ayeshasalons.netlify.app/"><button class="hvr-grow-shadow">View Site</button></a>
