@@ -300,85 +300,60 @@ h1{
 
 
 /*------------------------------servics section starts here-------------------------------------------*/
-#services {
-  display: flex;
-  flex-direction: column;
-  background-color: #000000;
-  padding: 50px 0;
-  color: white;
-}
-
-.servicesintro {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.servicesintro h1 {
-  color: #FF95AE;
-  font-size: 2.4rem;
-  margin-bottom: 15px;
-}
-
-.servicesintro p {
-  font-size: 1.5rem;
-  padding: 0 20px;
-  color: #FF95AE;
-}
-
-.carouselTrackContainer {
+.services-carousel {
   position: relative;
+  width: 100%;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 60px auto;
+  overflow: hidden;
+  background-color: #111;
+  color: white;
+  padding: 20px 0;
+}
+
+.carousel-track-container {
   overflow: hidden;
 }
 
-.carouselTrack {
+.carousel-track {
   display: flex;
   transition: transform 0.4s ease-in-out;
+  width: 100%;
 }
 
-.carouselTrack section {
+.carousel-track section {
   flex: 0 0 100%;
+  max-width: 100%;
+  padding: 20px;
   box-sizing: border-box;
-  padding: 40px 20px;
   text-align: center;
-  border-radius: 8px;
-  margin: 0 10px;
   background-color: #FF95AE;
+  border-radius: 5px;
   box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
 }
 
-.carouselTrack h3 {
-  margin-top: 15px;
-  font-size: 1.6rem;
-  text-transform: uppercase;
+.carousel-track section.proposal {
+  background: #FFC895;
 }
-
-.carouselTrack p {
-  margin-top: 10px;
-  font-size: 1.2rem;
+.carousel-track section.development {
+  background: #C9EFB7;
 }
-
-.services img {
-  height: 40px;
-  width: 40px;
-  margin-top: 10px;
-  border-radius: 5px;
+.carousel-track section.launch {
+  background: #4BE4C9;
 }
 
 .carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #444;
-  color: white;
+  background: rgba(255, 255, 255, 0.2);
   border: none;
-  padding: 12px;
+  font-size: 2rem;
+  color: white;
+  padding: 0.5rem 1rem;
   cursor: pointer;
-  font-size: 20px;
-  z-index: 2;
-  opacity: 0.8;
-  border-radius: 50%;
+  z-index: 10;
+  border-radius: 5px;
 }
 
 .carousel-btn.left {
@@ -389,19 +364,35 @@ h1{
   right: 10px;
 }
 
-/* Slide backgrounds */
-.services.proposal {
-  background: #FFC895;
+.carousel-inquiry-btn {
+  margin-top: 40px;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+  border: none;
+  background: linear-gradient(
+    24deg,
+    rgba(255, 161, 254, 1) 0%,
+    rgba(173, 29, 137, 1) 23%,
+    rgba(94, 24, 66, 1) 45%,
+    rgba(173, 29, 137, 1) 71%,
+    rgba(255, 161, 254, 1) 100%
+  );
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.services.development {
-  background: #C9EFB7;
+.carousel-inquiry-btn a {
+  color: white;
+  text-decoration: none;
 }
-
-.services.launch {
-  background: #4BE4C9;
-}
-
 /*---------------------------------------recent section starts here--------------------------------*/
 #recent{
     display: flex;
