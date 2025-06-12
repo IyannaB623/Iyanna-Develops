@@ -445,6 +445,42 @@ h1{
     padding: 2px;
 }
 
+.services-carousel button {
+  margin-top: 40px;
+  height: 50px;
+  width: 200px;
+  align-self: center;
+  border: none;
+  background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+  padding: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 2rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-btn.left {
+  left: 10px;
+}
+
+.carousel-btn.right {
+  right: 10px;
+}
+
+
 #services a{
     color:white;
     text-transform: uppercase;
