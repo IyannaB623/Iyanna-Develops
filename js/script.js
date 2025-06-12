@@ -42,3 +42,26 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('resize', updateSlide);
   updateSlide(); // initial update
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const target = document.querySelector(".github-icon-static");
+
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("animate");
+          observer.unobserve(entry.target); // only animate once
+        }
+      });
+    },
+    {
+      threshold: 0.5, // 50% visible triggers it
+    }
+  );
+
+  if (target) {
+    observer.observe(target);
+  }
+});
+
