@@ -299,7 +299,7 @@ h1{
     font-size: 1.9rem;
     margin-top: 0;
 }
-.service-disclaimer {
+.site-disclaimer, .service-disclaimer {
   color: white;
   padding: 1rem 1.5rem;
   margin: 2rem auto;
@@ -310,12 +310,12 @@ h1{
   line-height: 1.6;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
-.service-disclaimer a {
+.site-disclaimer a, .service-disclaimer a {
   color: #white;
   font-weight: bold;
 }
 
-.service-disclaimer a:hover {
+.site-disclaimer a:hoveer, .service-disclaimer a:hover {
   color: #FF95AE;
 }
 
@@ -547,7 +547,7 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    height: 1000px;
+    height: 850px;
     background-color: black;
 }
 
@@ -588,7 +588,7 @@ h1{
 .recentsection p{
     text-align: center;
     font-size: 1.6 rem;
-    background-color: rgba(255,255,255,0.5);
+    background-color: white;
     border: 5%;
     padding: 5%;
     color:black;
