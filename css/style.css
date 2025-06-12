@@ -300,98 +300,144 @@ h1{
 
 
 /*------------------------------servics section starts here-------------------------------------------*/
+#services{
+    display: flex;
+    flex-direction: column;
+    height: 925px;
+    background-color: #000000;
+}
+
+#services>section{
+    display: flex;
+}
+
+.servicesintro{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 110px;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.servicesintro h1{
+    font-size: 2.4rem;
+    align-self: center;
+    margin-bottom: 20px;
+    color:#FF95AE;
+}
+
+.servicesintro p, #services span{
+    text-align: center;
+    align-self: center;
+    margin: 0;
+    padding: 0 325px;
+    font-size: 1.7rem;
+    color:#FF95AE;
+}
+
+#services span{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 650px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 60px;
+}
+
+.services img{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.services h3, .services img{
+    margin-bottom: 0;
+}
+
+.services h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.services>p, .services section{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: center;
+    height: 255px;
+    width: 575px;
+    margin: 15px;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FF95AE;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+}
 .services-carousel {
   position: relative;
   width: 100%;
   max-width: 900px;
-  margin: 60px auto;
+  margin: auto;
   overflow: hidden;
-  background-color: #111;
+  background-color: #111; /* Optional dark background */
   color: white;
   padding: 20px 0;
 }
 
-.carousel-track-container {
-  overflow: hidden;
+
+.services .proposal{
+    background:#FFC895;
+    color: white;
+
 }
 
-.carousel-track {
-  display: flex;
-  transition: transform 0.4s ease-in-out;
-  width: 100%;
+.services .development{
+    background: #C9EFB7;
+    color: white;
 }
 
-.carousel-track section {
-  flex: 0 0 100%;
-  max-width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-  text-align: center;
-  background-color: #FF95AE;
-  border-radius: 5px;
-  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
+.services .launch{
+    background: #4BE4C9;
+    color: white;
 }
 
-.carousel-track section.proposal {
-  background: #FFC895;
-}
-.carousel-track section.development {
-  background: #C9EFB7;
-}
-.carousel-track section.launch {
-  background: #4BE4C9;
-}
-
-.carousel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.2);
-  border: none;
-  font-size: 2rem;
-  color: white;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  z-index: 10;
-  border-radius: 5px;
+#services button{
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    align-self: center;
+    border: none;
+    background: linear-gradient(24deg,rgba(255, 161, 254, 1) 0%, rgba(173, 29, 137, 1) 23%, rgba(94, 24, 66, 1) 45%, rgba(173, 29, 137, 1) 71%, rgba(255, 161, 254, 1) 100%);
+    border-color: solid white 2px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    padding: 2px;
 }
 
-.carousel-btn.left {
-  left: 10px;
-}
-
-.carousel-btn.right {
-  right: 10px;
-}
-
-.carousel-inquiry-btn {
-  margin-top: 40px;
-  height: 50px;
-  width: 200px;
-  align-self: center;
-  border: none;
-  background: linear-gradient(
-    24deg,
-    rgba(255, 161, 254, 1) 0%,
-    rgba(173, 29, 137, 1) 23%,
-    rgba(94, 24, 66, 1) 45%,
-    rgba(173, 29, 137, 1) 71%,
-    rgba(255, 161, 254, 1) 100%
-  );
-  border-radius: 5px;
-  color: white;
-  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
-  padding: 2px;
-  text-transform: uppercase;
-  font-weight: bold;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.carousel-inquiry-btn a {
-  color: white;
-  text-decoration: none;
+#services a{
+    color:white;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 /*---------------------------------------recent section starts here--------------------------------*/
 #recent{
