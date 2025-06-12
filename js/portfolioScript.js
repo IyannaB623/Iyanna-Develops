@@ -1,7 +1,7 @@
 const projects = [
 
      {
-        photo: "IMG/studioghibligif.gif",
+        photo: "IMG/ezgif.com-speed.gif",
         alt: "A gif of studio ghibli api project website",
         title: "Studio Ghibli API Project",
         description: 'A Studio Ghibli film gallery inspired site using the Ghibli API. Allows users to browse films, and click for more details.',
@@ -41,3 +41,4 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3>Ayesha Hair Salon</h3>
             <p>A "Bold & Beautiful" beauty salon layout for Ayesha Salon. Incoraporated bold fonts, colors, images, and more to capture the essence of this incredible black owned salon. </p>
             <a href="https://ayeshasalons.netlify.app/"><button class="hvr-grow-shadow">View Site</button></a>
+*/
