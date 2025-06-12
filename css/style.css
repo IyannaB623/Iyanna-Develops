@@ -173,42 +173,42 @@ h1{
 }
 
 #intro {
-  position: relative;       /* For absolute positioning of stars */
+  position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
   flex-wrap: wrap;
-  height: 560px;            /* Keep fixed height */
+  height: 560px;
   background: radial-gradient(ellipse at bottom, #000000 0%, #090A0F 100%);
   padding-top: 20px;
-  overflow: hidden;         /* Hide stars outside container */
+  overflow: hidden;
 }
 
 #intro .stars {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1px;  /* will vary per star size */
+  width: 1px;
   height: 1px;
   background: transparent;
-  animation: animStar 50s linear infinite, twinkle 1.5s ease-in-out infinite;
+  animation: animStar 80s linear infinite, twinkle 1.5s ease-in-out infinite;
 }
 
 #intro .stars:after {
   content: " ";
   position: absolute;
-  top: 560px;       /* Match container height */
+  top: 4000px;  /* match translateY value */
   width: 100%;
   height: 100%;
   background: transparent;
 }
 
-/* Example star sizes & shadows */
+/* Star sizes and shadows */
 #intro .small {
   box-shadow:
     300px 400px #FFA1FE, 800px 300px #FFA1FE, 1500px 500px #FFA1FE, 400px 100px #FFA1FE,
     100px 200px #FFA1FE, 1200px 150px #FFA1FE, 1900px 300px #FFA1FE, 600px 100px #FFA1FE;
-  animation-duration: 50s, 1.5s;
+  animation-duration: 80s, 1.5s;
   z-index: 0;
 }
 
@@ -217,7 +217,7 @@ h1{
   height: 2px;
   box-shadow:
     900px 350px #FFA1FE, 400px 150px #FFA1FE, 1400px 100px #FFA1FE, 700px 50px #FFA1FE;
-  animation-duration: 100s, 2.5s;
+  animation-duration: 120s, 2.5s;
   z-index: 0;
 }
 
@@ -226,14 +226,14 @@ h1{
   height: 3px;
   box-shadow:
     1000px 300px #FFA1FE, 600px 200px #FFA1FE, 1400px 400px #FFA1FE;
-  animation-duration: 150s, 3s;
+  animation-duration: 160s, 3s;
   z-index: 0;
 }
 
-/* Animate stars moving upward, confined to 560px */
+/* Animate stars upward — increase travel distance */
 @keyframes animStar {
   from { transform: translateY(0); }
-  to { transform: translateY(-560px); }
+  to { transform: translateY(-4000px); } /* more vertical distance */
 }
 
 /* Twinkle effect */
