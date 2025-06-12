@@ -197,7 +197,7 @@ h1{
 #intro .stars:after {
   content: " ";
   position: absolute;
-  top: 6400px;  /* translateY value */
+  top: 10000px;  /* translateY value */
   width: 100%;
   height: 100%;
   background: transparent;
@@ -208,7 +208,7 @@ h1{
   box-shadow:
     300px 400px #FFA1FE, 800px 300px #FFA1FE, 1500px 500px #FFA1FE, 400px 100px #FFA1FE,
     100px 200px #FFA1FE, 1200px 150px #FFA1FE, 1900px 300px #FFA1FE, 600px 100px #FFA1FE;
-  animation-duration: 80s, 2.0s;
+  animation-duration: 80s, 3.0s;
   z-index: 0;
 }
 
@@ -217,7 +217,7 @@ h1{
   height: 2px;
   box-shadow:
     900px 350px #FFA1FE, 400px 150px #FFA1FE, 1400px 100px #FFA1FE, 700px 50px #FFA1FE;
-  animation-duration: 120s, 3.0s;
+  animation-duration: 120s, 5.0s;
   z-index: 0;
 }
 
@@ -225,8 +225,8 @@ h1{
   width: 3px;
   height: 3px;
   box-shadow:
-    1000px 300px #FFA1FE, 600px 200px #FFA1FE, 1400px 400px #FFA1FE;
-  animation-duration: 160s, 3.2s;
+    -10000px 300px #FFA1FE, 600px 200px #FFA1FE, 1400px 400px #FFA1FE;
+  animation-duration: 160s, 6.2s;
   z-index: 0;
 }
 
