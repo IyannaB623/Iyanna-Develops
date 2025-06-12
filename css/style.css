@@ -140,7 +140,7 @@ h1{
     flex-wrap: wrap;
 }
 
-#intro button, .submitbutton, #about button, .button{
+#intro button, .submitbutton, #about button, .button, .carousel-send{
     margin-top: 20px;
     height: 50px;
     width: 200px;
