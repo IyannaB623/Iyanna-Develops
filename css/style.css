@@ -407,23 +407,6 @@ h1{
     background-color: #FF95AE;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
-. {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 60px auto;
-  overflow: hidden;
-  background-color: #111;
-  color: white;
-  padding: 20px 0;
-}
-
-
-.services .proposal{
-    background:#FFC895;
-    color: white;
-
-}
 
 .services .development{
     background: #C9EFB7;
@@ -473,15 +456,22 @@ h1{
 }
 
 .carouselTrackContainer {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 60px auto;
   overflow: hidden;
+  background-color: #111;
+  color: white;
+  padding: 20px 0
 }
 
- {
+
+.carouselTrack {
   display: flex;
   transition: transform 0.4s ease-in-out;
   width: 100%;
 }
-
 .carouselTrack section {
   flex: 0 0 100%;
   max-width: 100%;
@@ -516,7 +506,7 @@ h1{
 }
 
 .carousel-footer {
-  text-align: center;
+ text-align: center;
   margin-top: 20px;
 }
 
