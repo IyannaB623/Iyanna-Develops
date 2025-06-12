@@ -308,8 +308,7 @@ h1{
   transform: scale(0.4) rotate(0deg);
   transition: all 0.5s ease-out;
 }
-
-  .github-icon-static, .github-icon-static img{
+  .github-icon-static img{
   animation: spinGrowShrink 1s ease-out 1;
   animation-fill-mode: forwards;
   opacity: 1;
