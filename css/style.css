@@ -329,12 +329,12 @@ h1{
 
 .servicesintro p,
 #services span {
-  text-align: center;
+  text-align: left;
   align-self: center;
   margin: 0;
   padding: 0 325px;
   font-size: 1.7rem;
-  color: #FF95AE;
+  color: #000000;
 }
 
 #services span {
@@ -352,10 +352,11 @@ h1{
 }
 
 .services img {
-  height: 40px;
-  width: 40px;
+  height: 100px;
+  width: 100px;
   margin: 25px 10px 10px;
   border-radius: 5px;
+  align: self left;
 }
 
 .services h3,
@@ -369,24 +370,19 @@ h1{
   font-size: 1.6rem;
   margin-top: 10px;
 }
-/*
+
 .services > p,
 .services section {
   display: flex;
   flex-direction: column;
-  justify-content: first baseline;
-  align-items: center;
-  height: 255px;
-  width: 575px;
   margin: 15px;
   padding: 0 5%;
   font-size: 1.6rem;
   color: white;
   text-align: center;
   border-radius: 5px;
-  background-color: #FF95AE;
   box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.2);
-}/
+}
 
 /* Service Step Colors */
 .services .proposal {
