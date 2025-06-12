@@ -391,7 +391,7 @@ h1{
     background-color: #FF95AE;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
-.services-carousel {
+. {
   position: relative;
   width: 100%;
   max-width: 900px;
@@ -456,17 +456,17 @@ h1{
     background-color: #FF95AE;
 }
 
-.carousel-track-container {
+.carouselTrackContainer {
   overflow: hidden;
 }
 
-.carousel-track {
+ {
   display: flex;
   transition: transform 0.4s ease-in-out;
   width: 100%;
 }
 
-.carousel-track section {
+.carouselTrack section {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 20px;
