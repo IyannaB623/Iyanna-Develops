@@ -299,7 +299,7 @@ h1{
     margin-top: 0;
 }
 
- .github-icon-static img{
+ .github-icon-static, .github-icon-static img{
   display: inline-block;
   align-self: center;
   width: 40px;
