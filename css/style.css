@@ -391,11 +391,11 @@ h1{
     margin-bottom: 10px;
     border-radius: 5px;
 }
-.services h3, .services img{
+.services .carousel-track-container h3, .services .carousel-track-container img{
     margin-bottom: 0;
 }
 
-.services h3{
+.services .carousel-track-container h3{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.6rem;
@@ -427,7 +427,7 @@ h1{
   overflow: hidden;
   background-color: #111; /* Optional dark background */
   color: white;
-  padding: 20px;
+  padding: 20px 35px;
 }
 
 
