@@ -501,7 +501,7 @@ h1{
     color: white;
     margin-bottom: 30px;
     justify-self: self-start;
-    color: #FF95AE;
+    color: FFF4F4;
 }
 
 .recentsection{
@@ -512,7 +512,7 @@ h1{
     flex-wrap: wrap;
     height: 850px;
     width: 100%;
-    background-color: #FFF4F4;
+    background-color: 000000;
 }
 
 .recentsection>section{
@@ -523,7 +523,7 @@ h1{
     text-align: center; 
     height: 840px;
     width: 32%;
-    background-color:#FFF4F4;
+    background-color:FFF4F4;
     margin: 4px;
 }
 
@@ -704,7 +704,7 @@ h1{
     flex-wrap: wrap;
     height: 780px;
     width: 98%;
-    background-color: #000000;
+    background-color: 000000;
     color: white;
     align-content: center;
     border-radius: 5px;
@@ -717,7 +717,7 @@ h1{
     width: 100px;
     margin-top: 100px;
     text-align: center;
-    color: #FFF4F4;
+    color: FFF4F4;
     margin-left: 125px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -732,7 +732,7 @@ h1{
 
 #about .aboutsoftware{
     font-size: 2.2rem;
-    color: #FF95AE;
+    color: FF95AE;
 }
 
 #about img{
