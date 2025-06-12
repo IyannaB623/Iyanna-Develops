@@ -145,4 +145,5 @@ button{
   font-weight: bold;
   z-index: 2;
   border-bottom-right-radius: 8px;
+  border-top-left-radius: 12px;
 }
