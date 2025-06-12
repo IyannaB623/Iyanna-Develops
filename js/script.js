@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const slides = Array.from(track.children);
   const nextBtn = document.querySelector('.carousel-btn.right');
   const prevBtn = document.querySelector('.carousel-btn.left');
+  const track = document.querySelector('.carouselTrack');
 
   let currentSlide = 0;
 
